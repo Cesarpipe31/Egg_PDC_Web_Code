@@ -1,0 +1,18 @@
+body{
+    background-color:chartreuse;
+    color: darkblue
+}
+
+h1{
+    font-family: "Arial";
+    font-size: 36px;
+    text-align: center;
+    color: brown;
+}
+
+p{
+    font-family: "Gerogia";
+    font-size: 24px;
+    padding: 30px;
+    margin: 20px;
+}

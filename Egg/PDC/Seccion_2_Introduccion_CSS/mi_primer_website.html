@@ -1,0 +1,62 @@
+<!-- 
+    
+Desafío
+
+A continuación, te presentamos el desafío de hoy. Deberás agregar algunos estilos CSS a la página HTML que 
+creaste en el encuentro anterior cumpliendo con los siguientes requisitos:
+A resolver:
+1. Crear un archivo nuevo en Visual Code (o en tu editor de código) y guárdalo con la extensión ".css", como por ejemplo
+"estilos.css". Este archivo contendrá los estilos CSS.
+2.Enlazar el archivo CSS externo que creaste con tu documento HTML. Abrir tu archivo "mi-primer-website.html" 
+del encuentro anterior y agregar el siguiente código dentro de la sección <head>, justo debajo de la etiqueta <title>:    
+El atributo "href" se utiliza para especificar la ubicación de un archivo.Puede ser una dirección de internet o una 
+dirección de la propia computadora. En este caso, nos centraremos en la segunda opción. La ruta especificada es relativa 
+al archivo HTML actual:
+    Cambiar el color del fondo de la página.
+    Cambiar el color de la fuente de la página.
+    Dar estilo al encabezado h1 y a los párrafos.
+Si el archivo "styles.css"está en una carpeta llamada "CSS" al mismo nivel que el archivo HTML, la ruta relativa sería:
+href = "css/styles.css". Si los archivos HTML y CSS están en carpetas separadas al mismo nivel, la ruta relativa sería:
+href = "../css/styles.css".
+
+En este caso, el código "href" le indica al navegador que busque un archivo llamado "styles.css" en el mismo directorio 
+que el archivo HTML y aplique los estilos definidos en él.
+3. Abrir el archivo "styles.css" y agregar algunos estilos básicos. Empecemos cambiando el color de fondo y el color de 
+fuente de toda la página. Por ejemplo, puedes agregar el siguiente código:
+Este código apunta al elemento <body>, y establece su color de fondo en azul claro y su color de fuente en azul oscuro.
+4. Dar estilo al encabezado <h1>. Por ejemplo, puedes agregar el siguiente código a tu archivo "styles.css":
+Este código apunta al elemento <h1> y establece su familia de fuente en Arial, tamaño de fuente en 36 píxeles y 
+alineación de texto centrada.
+5. Finalmente, dar estilo a los párrafos. Por ejemplo, puedes agregar algunos márgenes y rellenos aplicando el siguiente código:
+Este código apunta a los elementos <p> y establece su familia de fuentes en Georgia, el tamaño de la fuente en 18 píxeles, 
+el padding en 10 píxeles y el margen en 20 píxeles.
+6. Guardar los archivos: "mi-primer-website.html" y "estilos.css", y luego actualizar la página web en el navegador. 
+Ahora deberías ver los nuevos estilos aplicados a tu página HTML, con un color de fondo, un color para los textos, 
+y un encabezado y párrafos con otro aspecto.
+¡Desafío terminado!
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mi primer website</title>        
+        <link rel="stylesheet" href="estilos.css">
+        
+    </head>
+
+    <body style="">
+        <h1>Bienvenidos a mi primer Website</h1>
+        <h2>Intro</h2>
+        <h2>Revisaremos</h2>
+        <p>Soy César y esta es mi primera página web!.  Estoy aprendiendo desarrollo web visualmente atrapantes y funcionales</p>
+        
+        <p>
+            aprenderé HTML, CSS y JavaScript
+        </p>
+        <p>Muchísimas gracias.</p>
+        Esto lo van a ver en la página.
+
+
+    </body>
+</html>
